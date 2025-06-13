@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'old-online-store';
+  
+  activeTab: any = 'home'
+
+  handleNavClick(value: any){
+    console.log(value)
+    this.activeTab = value;
+  }
+
 }

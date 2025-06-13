@@ -5,18 +5,18 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Login } from './login/login';
 import { Register } from './register/register';
-import { NavBar } from './nav-bar/nav-bar';
 import { About } from './about/about';
 import { Contact } from './contact/contact';
+import { Home } from './home/home';
 
 @NgModule({
   declarations: [
     App,
     Login,
     Register,
-    NavBar,
     About,
-    Contact
+    Contact,
+    Home
   ],
   imports: [
     BrowserModule,
